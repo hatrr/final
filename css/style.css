@@ -1,0 +1,509 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	}
+.content{
+	width: 100%;
+	height: 4000px;
+	background-color:#FFFFFF;
+	} 
+.header{
+	width: 100%;
+	height: 60px;
+	background: rgb(33,33,33);
+    background: linear-gradient(0deg, rgba(33,33,33,0) 0%, rgba(0,0,0,0.8169642857142857) 100%);
+	z-index: 2;
+	position: absolute;
+	top: 0px;
+	}
+
+.logo{
+	width: 30%;
+	height: 60px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	}
+.logo img{
+	width: 120px;
+	height: 60px;
+	}
+
+.menu{
+	width: 70%;
+	height: 60px;
+	float:right; 
+	}
+	fas fa-shopping-cart{
+	color: #FFFFFF;
+	}
+.menu ul li{
+	float: left;
+	width: 150px;
+	margin-top: 5px;
+	list-style-type: none;
+	position: relative;
+	}
+.menu ul li a{
+	font-size: 14px;
+	font-family: "UTM Avo";
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+.menu ul li a:hover{
+	border-bottom: 2px solid #FFFFFF;
+	}
+	
+.menu ul li ul{
+	position: absolute;
+	left: -24px;
+	top: 20px;
+	}
+.menu ul li ul{
+	width: 100px;
+	visibility: hidden;
+	}
+.menu ul li ul li{
+	margin-left: 24px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+.menu ul li ul li a{
+	font-size: 16px;
+	}
+.menu ul li ul:hover{
+	width: 100px;
+	height: auto;
+	}
+.menu ul li:hover ul{
+	visibility: visible;
+	}
+.slider{
+	width: 100%;
+	height: 650px;
+	margin-top: -10px;
+	position: relative;
+	}
+.slider img{
+	width: 100%;
+	height: 650px;	
+	}
+
+.noidungslider{
+	width: 70%;
+	height:450px; 
+	position: absolute;
+	top: 250px;
+	left: 80px;
+	}
+.noidungslider h4{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	font-weight: 100;
+	}
+.noidungslider h1{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	margin-top: -16px;
+	}
+.noidungslider p{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	}
+.primarybutton1{
+	width: 150px;
+	height: 48px;
+	background-color: #FF9DEB;
+	border-radius: 8px;
+	position: absolute;
+	top: 450px;
+	left: 80px;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	font-size: 16px;
+	font-weight: 600;
+  	transition: 0.3s;
+	}
+.primarybutton1:hover{
+	background-color: #B80093;
+  	color: white;
+	}
+
+.tinhnangnoibat{
+	width: 100%;
+	height: 440px;
+	display: flex;
+	justify-content: center;
+	}
+.tinhnang1{
+	width: 220px;
+	height: 220px;
+	float: left;
+	padding: 5% 2% 0 2%;
+	margin: 20px;
+	position: relative;
+	}
+.tinhnang1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.tinhnang1 img{
+	width: 100%;
+	height: 220px;
+	}
+.lable{
+	width: 100px;
+	height: 40px;
+	background-color: rgba(255,119,238,1.00);
+	border-radius: 10px;
+	top: 150px;
+	left: 80px;
+	color: rgba(242,242,242,1.00);
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	opacity: 0;
+	}
+.tinhnang1 .lable{
+	transition: all 0.2s ease;
+	}
+.tinhnang1:hover .lable{
+	opacity: 1;
+	}
+.tinhnang1 img{
+	opacity: 1;
+	}
+.tinhnang1:hover img{
+	opacity: 0.5;
+	transition: ease-in-out 0.2s;
+	}
+
+.aboutourproduct h2{
+	font-family: "UTM Avo";
+	text-align: center;
+	margin-top: 32px;
+	color: #262626;
+	}
+.aboutourproduct p{
+	text-align: center;
+	font-family: "UTM Avo";
+	font-size: 12px;
+	margin-top: 0px;
+	color: #262626;
+	padding-bottom: 80px;
+	}
+.aboutourproduct img{
+	width: 220px;
+	margin-left: 42%;
+	margin-top: -16px;
+	}
+
+.banner1{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	}
+.banner1 img{
+	width: 100%;
+	height: 650px;
+	}
+.noidungbanner{
+	width: 70%;
+	height:450px; 
+	position: absolute;
+	top: 250px;
+	left: 80px;
+	}
+.noidungbanner h4{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	font-weight: 100;
+	}
+.noidungbanner h1{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	margin-top: -16px;
+	}
+.noidungbanner p{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	}
+.primarybutton2{
+	width: 150px;
+	height: 48px;
+	background-color: #FF9DEB;
+	border-radius: 8px;
+	position: absolute;
+	top: 450px;
+	left: 80px;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	font-size: 16px;
+	font-weight: 600;
+  	transition: 0.3s;
+	}
+.primarybutton2:hover{
+	background-color: #B80093;
+  	color: white;
+	}
+.irisdetail{
+	width: 100%;
+	height: 340px;
+	margin-top: 40px;
+	}
+.noidungiris1{
+	width: 32%;
+	height: 300px;
+	padding: 0 2% 0 4%;
+	float: left;
+	}
+.noidungiris1 h1{
+	font-family: "UTM Avo";
+	font-weight: 700;
+	color: #FF9DEB;
+	}
+.noidungiris1 p{
+	font-family: "UTM Avo";
+	font-size: 12px;
+	color: #262626;
+	line-height: 24px;
+	margin-top: 24px;
+	}
+.imgiris img{
+	width: 20%;
+	height: 300px;
+	padding: 0 2% 0 2%;
+	float: left;
+	}
+
+.nhunguudiem{
+	width: 100%;
+	height: 280px;
+	margin-top: -4%;
+	background-color:#FFF8FE;
+	}
+.nhunguudiem img{
+	width: 500px;
+	float: left;
+	}
+.khungnhunguudiem{
+	width: 50%;
+	height: 280px;
+	float: right;
+	margin-right: 20px;
+	}
+
+.icon1{
+	width: 30%;
+	height: 150px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	margin-left: 3%;
+	}
+.icon1 img{
+	width: 30%;
+	height: 60px;
+	margin-top: 25%;
+	}
+.icon1 p{
+	margin-top: 70%;
+	margin-left: -45%;
+	font-family: "UTM Avo";
+	font-size: 13px;
+	}
+
+.tieudefeddback{
+	width: 100%;
+	height: 50px;
+	}
+.tieudefeddback h3{
+	color: #FF00F4;
+	font-family: "UTM Avo";
+	font-size: 24px;
+	text-align: center;
+	font-weight: 400;
+	}
+.feedback{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	}
+.feedback1{
+	width: 220px;
+	height: 220px;
+	float: left;
+	padding: 5% 2% 0 2%;
+	margin: 10px;
+	margin-left: 5%;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 2px 1px 12px -8px rgba(0,0,0,0.62); 
+	box-shadow: 2px 1px 12px -8px rgba(0,0,0,0.62);
+	}
+.feedback1 img{
+	width:100%;
+	height: auto;
+	}
+
+.newsitem{
+	width: 100%;
+	height: 500px;
+	padding-top: 5%;
+	}
+.newstitle{
+	width: 100%;
+	height: 40px;
+	}
+.newstitle h2{
+	color: #FF00F4;
+	text-align: center;
+	font-family: "UTM Avo";
+	font-weight: 500;
+	}
+.skincareitem{
+	width: 80%;
+	height: 300px;
+	background-color:#FFFFFF;
+	margin-left: 10%;
+	padding-left: 2%;
+	padding-top: 3%;
+	position: relative;
+	-webkit-box-shadow: 2px 1px 12px -8px rgba(0,0,0,0.62); 
+	box-shadow: 2px 1px 12px -8px rgba(0,0,0,0.62);
+	}
+.skincareitem img{
+	width: 50%;
+	float: left;
+	margin-right: 4%;
+	}
+.skincareitem h2{
+	font-family: "UTM Avo";
+	font-size: 24px;
+	margin-top: 0%;
+	color:#2F2F2F;
+	}
+.skincareitem h4{
+	font-family: "UTM Avo";
+	font-size: 10px;
+	font-weight: 200;
+	color:#FFCCFE;
+	}
+.skincareitem p{
+	font-family: "UTM Avo";
+	font-weight: lighter;
+	font-size: 14px;
+	color: #2F2F2F;
+	margin-right: 4%;
+	}
+.primarybutton3{
+	width: 100px;
+	height: 40px;
+	background-color: #FF9DEB;
+	border-radius: 8px;
+	position: absolute;
+	top: 250px;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	font-size: 14px;
+	font-weight: 600;
+  	transition: 0.3s;
+	}
+.primarybutton3 a{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.primarybutton3:hover{
+	background-color: #B80093;
+  	color: white;
+	}
+
+.footer{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-color: #3B3E4A;
+	}
+.footer h3{
+	font-family: "UTM Avo";
+	font-size: 32px;
+	font-weight: 600;
+	color: #FF00F4;
+	text-align: center;
+	padding-top: 5%;
+	}
+.imgfooter{
+	width: 20%;
+	height: 120px;
+	margin-top: 5%;
+	margin-left: 40%;
+	}
+.imgfooter img{
+	width: 100%;
+	height: 120px;
+	}
+input{
+	width: 70%;
+	height: 50px;
+	border: none;
+	background-color: #666D82;
+	margin-left: 15%;
+	}
+.sendbutton{
+	width: 100px;
+	height: 52px;
+	background-color: #FF9DEB;
+	position: absolute;
+	right: 143px;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	font-size: 14px;
+	font-weight: 600;
+  	transition: 0.3s;
+	z-index: 2;
+	}
+.sendbutton a{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.sendbutton:hover{
+	background-color: #B80093;
+  	color: white;
+	}
+
+.follow{
+	width: 100%;
+	height: 40px;
+	}
+.follow p{
+	color: #FFFFFF;
+	font-family: "UTM Avo";
+	font-size: 20px;
+	text-align: center;
+	}
+
+.brandiconto{
+	padding-top: 1%;
+	margin-left: 43%;
+	}
+.brandicon{
+	width: 30px;
+	height: 30px;
+	float:left;
+	margin-left: 5%;
+	}
+
+.brandicon img{
+	width: 30px;
+	height: 30px;
+	}
+
+	
